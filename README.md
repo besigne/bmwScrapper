@@ -5,12 +5,22 @@ respective prices, should encounter some problems as
 this is a first try, for example, multiple prices is
 something I hope be working for next update
 ## 🚀 How to Use
+### Dependecies
+To the scrapper to work you will need to have installed:
+- Python 3.9
+- Requirements.txt
 ### 💻 Installing Bmw Scrapper
 Clone the repository to your local then proced to navigate
 through the terminal until you're inside /bmwscrapper, next
 thing you should do is run the following command:
 
 *Linux:*
+```
+python -m venv venv
+```
+```
+source venv/bin/activate
+```
 ```
 python menu.py
 ```
