@@ -27,10 +27,10 @@ for cars in car_models:
     price = price.replace(' à vista* ', '')
 
     if price == '':
-        price = 'Multiple values, please verify website'
+        price = 'Multiple values, please verify website.'
 
     if fuel == '':
-        fuel = 'More than one version available, please verify website'
+        fuel = 'More than one version available, please verify website.'
 
     bmw = Car(name=car, price=price, fuel=fuel)
     BMW = BMW + [bmw]
