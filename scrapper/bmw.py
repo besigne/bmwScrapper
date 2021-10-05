@@ -18,12 +18,14 @@ for cars in car_models:
     fuel = cars.find('div', {'class': 'cmp-modelcard__fuel-type'})
     fuel = fuel.get_text()
     fuel = fuel.replace(' ', '')
+    fuel = fuel.replace('•',' with ')
 
     price = cars.find('span', {'class': 'cmp-modelcard__price'})
     price = price.get_text()
     price = price.replace(' A partir de ', '')
     price = price.replace(' à vista*. ', '')
     price = price.replace(' à vista* ', '')
+
     if price == '':
         price = 'Multiple values, please verify website'
 
