@@ -1,4 +1,5 @@
-#Python Scrapper
+##Python Scrapper
+
 this is a basic scrapper that gets car models and his
 respective prices, should encounter some problems as 
 this is a first try, for example, multiple prices is
