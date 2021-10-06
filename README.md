@@ -36,9 +36,8 @@ properly and generates a .csv file on the current directory.
 - [ ] Multiple Prices
 - [ ] Multiple Fuel types
 * Audi Scrapper
-- [ ] Audi Models
+- [x] Audi Models
 - [ ] Multiple Prices
-- [ ] Multiple Fuel types
 ****
 
 📝 Matheus Boesing da Silva
