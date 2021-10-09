@@ -7,6 +7,7 @@ def main():
                                  title="Select one scrapper to run: ",
                                  )
     menu_entry_index = terminal_menu.show()
+
     if options[menu_entry_index] == 'BMW Scrapper':
         exec(open('scrapper/bmw.py').read())
     elif options[menu_entry_index] == 'Audi Scrapper':
