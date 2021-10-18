@@ -5,7 +5,7 @@ respective prices, should encounter some problems as
 this is a first try, for example, multiple prices is
 something I hope be working for next update
 ## 🚀 How to Use
-### Dependecies
+### Dependencies
 To the scrapper to work you will need to have installed:
 - Python 3.9
 - Requirements.txt
